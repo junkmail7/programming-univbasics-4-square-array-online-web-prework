@@ -3,5 +3,7 @@ def square_array(array)
   
   while !array(count) do
     array(count)
-    count
+    count=count+1
+  end
+  p
 end
