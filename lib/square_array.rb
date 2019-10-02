@@ -3,7 +3,11 @@ def square_array(array)
   array1=[]
   while count!=array.size do
     array1[count]=array[count]**2
-    p array1[count]
     count=count+1
+  end
+  
+  while array1[count] do
+    puts pets[count]
+    counter += 1
   end
 end
